@@ -1,4 +1,4 @@
-import App from './routes/App.jsx';
+import App from './routes/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
