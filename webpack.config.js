@@ -8,6 +8,7 @@ module.exports = {
 		// lugar al que saldrán todos los archivos
 		path: path.resolve(__dirname, 'dist'), //en nuestro path, crea la carpeta dist
 		filename: 'bundle.js', // nombre del archivo js resultante
+		publicPath: '/', // ruta de salida
 	},
 	mode: 'development',
 	resolve: {
@@ -52,5 +53,6 @@ module.exports = {
 		static: { directory: path.join(__dirname, 'dist') },
 		compress: true,
 		port: 3000,
+		historyApiFallback: true,
 	},
 };
