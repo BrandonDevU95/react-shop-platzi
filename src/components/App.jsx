@@ -1,9 +1,15 @@
-import '../styles/global.scss';
+import '../styles/global.css';
 
+import Layout from '../containers/Layout';
+import Login from '../containers/Login';
 import React from 'react';
 
 const App = () => {
-	return <h1>Hola Mundo, Curso PLatzi!</h1>;
+	return (
+		<Layout>
+			<Login />
+		</Layout>
+	);
 };
 
 export default App;

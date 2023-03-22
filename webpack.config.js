@@ -28,7 +28,7 @@ module.exports = {
 				use: [{ loader: 'html-loader' }], // loader a usar
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.(css|scss)$/,
 				use: [
 					'style-loader', // creas `style` nodes from JS strings
 					'css-loader', // traduce los CSS a js
